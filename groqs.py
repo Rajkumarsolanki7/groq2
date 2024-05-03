@@ -24,7 +24,7 @@ def get_chat_response(user_message):
     return chat_completion.choices[0].message.content
 
 # Streamlit UI
-st.title("Chatbot App")
+st.title("Jugadu Chat")
 
 # User input for system role
 system_role = st.text_input("Kya Bnu :")
