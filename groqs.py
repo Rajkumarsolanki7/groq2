@@ -27,7 +27,7 @@ def get_chat_response(user_message):
 st.title("Jugadu Chat")
 
 # User input for system role
-system_role = st.text_input("Kya Bnu :")
+system_role = st.text_input("Bol :")
 
 # User input for user message
 user_message = st.text_input("Puch :")
