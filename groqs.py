@@ -33,7 +33,7 @@ system_role = st.text_input("Kya bnna bta :")
 user_message = st.text_input("Puch le mt sharma :")
 
 # Submit button
-if st.button("Done"):
+if st.button("Bta"):
     # Combine system role and user message
     combined_message = f"{system_role}\n{user_message}"
     
