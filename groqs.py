@@ -24,16 +24,16 @@ def get_chat_response(user_message):
     return chat_completion.choices[0].message.content
 
 # Streamlit UI
-st.title("Jugadu Chat")
+st.title("Personal Assistent")
 
 # User input for system role
-system_role = st.text_input("Kya bnna bta :")
+system_role = st.text_input("Order Me :")
 
 # User input for user message
-user_message = st.text_input("Puch le mt sharma :")
+user_message = st.text_input("Ask :")
 
 # Submit button
-if st.button("Bta"):
+if st.button("Send"):
     # Combine system role and user message
     combined_message = f"{system_role}\n{user_message}"
     
