@@ -1,36 +1,18 @@
-Objectives:-
 
+Tools & Tech Used : 
 
-Create a Chat Interface: Develop a user-friendly chat interface where users can input their system role and message, and receive a response.
+- Streamlit
 
-Integrate with GROQ API: Utilize the GROQ API to generate responses based on user input.
+- Groq Cloud API
 
-Web Application: Deploy the chat interface as a web application using Streamlit.
+- LLama 3 70B
 
-Tools and Technologies:-
+- Python
 
-Streamlit: A Python library used for creating web applications. It provides the UI components and layout for the chat interface.
+Description : 
 
-GROQ API: An external API used for generating chat responses. The project uses a specific model, llama3-70b-8192, to generate these responses.
+- The streamlit application understand the user query and acts as a technical python trainer.
 
-Python: The primary programming language used to write the script.
+- For generating thr answers and responses accurately it uses a LLM , LLama3 70B from Meta
 
-CSS: Used for styling the chat interface, including the layout, input fields, buttons, and response display.
-Detailed Breakdown
-
-Streamlit Functions:-
-
-st.title: Sets the title of the web application.
-
-st.markdown: Adds custom HTML and CSS for styling.
-
-st.container: Creates a container for grouping input fields.
-
-st.text_input: Creates text input fields for the system role and user message.
-
-st.button: Creates a button to submit the input and generate a response.
-
-GROQ API Functions:-
-
-Groq: Initializes the GROQ client using an API key.
-client.chat.completions.create: Sends a message to the GROQ API and retrieves the response.
+- For faster response, we are using Groq Clouds Inference API
